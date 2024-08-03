@@ -29,11 +29,11 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         Map<String, String> validationErrors = new HashMap<>();
         List<ObjectError> validationErrorList = ex.getBindingResult().getAllErrors();
 
-        validationErrorList.forEach(error -> {
+        for (ObjectError error : validationErrorList) {
             String fieldName = ((FieldError) error).getField();
             String validationMsg = error.getDefaultMessage();
             validationErrors.put(fieldName, validationMsg);
-        });
+        }
 
         return new ResponseEntity<>(validationErrors, HttpStatus.BAD_REQUEST);
     }

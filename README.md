@@ -17,7 +17,7 @@ This project demonstrates how to write microservices using Java and Spring Boot.
     mvn spring-boot:run
     ```
 
-3. **Access the Database**
+3. **Access the h2 console**
 
    Open your browser and navigate to:
 
