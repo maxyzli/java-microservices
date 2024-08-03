@@ -10,16 +10,17 @@ This project demonstrates how to write microservices using Java and Spring Boot.
     brew install maven
     ```
 
-2. **Start the Server**
+2. **Go to the account service and start the server**
 
     ```bash
+    cd accounts
     mvn spring-boot:run
     ```
 
-3. **Access the Application**
+3. **Access the Database**
 
    Open your browser and navigate to:
 
     ```bash
-    http://localhost:8080
+    http://localhost:8080/h2-console
     ```
