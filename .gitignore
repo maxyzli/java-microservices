@@ -1,0 +1,66 @@
+# Ignore Maven/Gradle files
+target/
+*.jar
+*.war
+*.ear
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Ignore configuration files
+*.config
+
+# Ignore local environment-specific files
+.env
+
+# Ignore build files
+build/
+dist/
+
+# Ignore Spring Boot specific files
+spring.log
+
+# Ignore application properties
+application.properties
+application.yml
+
+# Ignore test reports
+test-output/
+surefire-reports/
