@@ -5,7 +5,9 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
-
+/**
+ * Data Transfer Object for Customer details.
+ */
 @Data
 public class CustomerDto {
     @NotEmpty(message = "Name can not be a null or empty")

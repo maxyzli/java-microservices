@@ -12,5 +12,4 @@ public class ErrorResponseDto {
     private HttpStatus errorCode;
     private  String errorMessage;
     private LocalDateTime errorTime;
-
 }

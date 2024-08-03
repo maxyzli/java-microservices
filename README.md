@@ -17,10 +17,18 @@ This project demonstrates how to write microservices using Java and Spring Boot.
     mvn spring-boot:run
     ```
 
-3. **Access the h2 console**
+3. **Access the H2 console**
 
    Open your browser and navigate to:
 
     ```bash
     http://localhost:8080/h2-console
+    ```
+
+4. **Access the Swagger UI**
+
+   Open your browser and navigate to:
+
+    ```bash
+    http://localhost:8080/swagger-ui/index.html
     ```
