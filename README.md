@@ -6,11 +6,14 @@ This project demonstrates how to write microservices using Java and Spring Boot.
 
 1. [Tech Stack](#tech-stack)
 2. [How to Run](#how-to-run)
+3. [Docker Commands](#docker-commands)
 
 ## Tech Stack
 
 - **Java**: High-level programming language for building enterprise applications.
 - **Spring Boot**: Framework for easy setup and development of Spring applications.
+- **Spring REST Docs**: Facilitates the generation of documentation for RESTful services.
+- **Spring Cloud Config**: Supports externalized configuration for distributed systems.
 - **Spring JPA**: Simplifies database interactions using object-relational mapping.
 - **Maven**: Build tool for managing project dependencies and build processes.
 - **Kafka**: Distributed streaming system for building real-time data pipelines and applications.
@@ -49,7 +52,7 @@ This project demonstrates how to write microservices using Java and Spring Boot.
     http://localhost:8080/swagger-ui/index.html
     ```
 
-## Docker Commands used in the course
+## Docker Commands
 
 | Docker Command                                                                                                            |     Description          |
 |---------------------------------------------------------------------------------------------------------------------------| ------------- |
